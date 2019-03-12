@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Syahla</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <%= csrf_meta_tags %>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <!--===============================================================================================-->
+  <link rel="icon" type="image/png" href="/assets/images/icon/favicon.png"/>
+  <%= stylesheet_link_tag 'page' %>
+  <link rel="stylesheet" type="text/css" href="/assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="/assets/fonts/themify/themify-icons.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="/assets/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="/assets/fonts/elegant-font/html-css/style.css">
+</head>
+<body class="animsitions">
+<%= yield %>
+
+<%= javascript_include_tag 'page' %>
+
+</body>
+</html>
